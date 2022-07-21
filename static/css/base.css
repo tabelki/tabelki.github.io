@@ -1,4 +1,4 @@
-body { background-color: whitesmoke; color: #282828; font-family:"Calibri"; font-size: large; margin: auto;}
+body { background-color: whitesmoke; color: #282828; font-family:"Calibri"; font-size: large; margin: auto; line-height: 1;}
 ul { list-style: none outside none; margin: 0; padding: 0; text-align: center; }
 li { margin: 5px; display: inline; }
 a { text-decoration: none; color: #d36363; font-size: large;}

@@ -1,4 +1,4 @@
-body { background-color: whitesmoke; color: #282828; font-family:"Calibri"; font-size: large; max-width: 680px; margin: auto;}
+body { background-color: whitesmoke; color: #282828; font-family:"Calibri"; font-size: large; max-width: 680px; margin: auto; line-height: 1.1;}
 footer{ font-size: medium; text-align: center; }
 a { font-size: x-large; color: #d36363; text-decoration: none; }
 a:hover { color: #545454;}
