@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bardzo Bardzo Serio | Średnia miesięczna</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="static/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/favicon-16x16.png">
+    <link rel="manifest" href="static/site.webmanifest">
+            <link rel="stylesheet" href="static/css/base.css">
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/js/chart.min.js"></script>
+</head>
+<body>
+<a href="index.html">Wróć na stronę główną</a>
+<ul class="website">
+    <li>
+    <ul>            <li><a href="rns_avg_monthly_t.html">Radio Nowy Świat</a></li>
+            <li><span class="name">Bardzo Bardzo Serio</span></li>
+            <li><a href="segram_avg_monthly_t.html">Piotr Bukartyk & Ajagore</a></li>
+            <li><a href="357_avg_monthly_t.html">Radio 357</a></li>
+    </ul>
+    </li>
+        <li><a href="bbs_avg_monthly_b.html">Tabele podstawowe</a> <span style="font-weight: bold; font-size: larger">Tabele progowe</span> <a href="bbs_avg_monthly.html">Tabele zbiorcze</a></li>
+        <li>
+            <ul>
+            <li>
+                    <li><a href="bbs_24_hours_t.html">24h</a></li>
+            <li>
+                    <li><a href="bbs_7_days_t.html">7 dni</a></li>
+            <li>
+                    <li><a href="bbs_month_t.html">Miesiąc</a></li>
+            <li>
+                    <li><a href="bbs_avg_weekly_t.html">Średnia tygodniowa</a></li>
+            <li>
+                <span style="font-weight: bold; font-size: larger">Średnia miesięczna</span>
+            </ul>
+    </li>
+</ul>
+
+<div class="info">Tabele/wykresy na podstawie danych ze strony <a href="https://patronite.pl/BardzoBardzoSerio">https://patronite.pl/BardzoBardzoSerio</a></div>
+<table width="900px" align="center">
+  <tr>
+    <th></th>
+    <th colspan=8 class="threshold">Progi [PLN]</th>
+    <th colspan=3 class="bbs">BBS</th>
+    <th></th>
+  </tr>
+  <tr>
+    <th>Data/godzina<br/>odczytu</th>
+    <th>10</th>
+    <th>20</th>
+    <th>50</th>
+    <th>100</th>
+    <th>500</th>
+    <th>1000</th>
+    <th>1500</th>
+    <th>3000</th>
+    <th>Patronów</th>
+    <th>Miesięcznie<br/>[PLN]</th>
+  </tr>  <tr>
+    <td  class="datetime">2021-09</td>
+<!-- THRESHOLDS -->
+    <td class="threshold">25</td>
+    <td class="threshold">21</td>
+    <td class="threshold">7</td>
+    <td class="threshold">1</td>
+    <td class="threshold">0</td>
+    <td class="threshold">-</td>
+    <td class="threshold">-</td>
+    <td class="threshold">-</td>
+    <td>
+    54
+    </td>
+    <td>
+    1120
+	&nbsp;<span class="red"></span>
+	</td>
+  </tr>
+  <tr>
+    <td  class="datetime">2021-10</td>
+<!-- THRESHOLDS -->
+    <td class="threshold">42&nbsp;<span class="green">+17</span></td>
+    <td class="threshold">33&nbsp;<span class="green">+12</span></td>
+    <td class="threshold">12&nbsp;<span class="green">+5</span></td>
+    <td class="threshold">1</td>
+    <td class="threshold">-</td>
+    <td class="threshold">-</td>
+    <td class="threshold">-</td>
+    <td class="threshold">-</td>
+    <td>
+    88
+&nbsp;<span class="green">+34</span>    </td>
+    <td>
+    1780
+	&nbsp;<span class="green">+660</span>
+	</td>
+  </tr>
+  <tr>
+    <td  class="datetime">2021-11</td>
+<!-- THRESHOLDS -->
+    <td class="threshold">48&nbsp;<span class="green">+6</span></td>
+    <td class="threshold">39&nbsp;<span class="green">+6</span></td>
+    <td class="threshold">13&nbsp;<span class="green">+1</span></td>
+    <td class="threshold">1</td>
+    <td class="threshold">-</td>
+    <td class="threshold">-</td>
+    <td class="threshold">-</td>
+    <td class="threshold">-</td>
+    <td>
+    101
+&nbsp;<span class="green">+13</span>    </td>
+    <td>
+    2010
+	&nbsp;<span class="green">+230</span>
+	</td>
+  </tr>
+  <tr>
+    <td  class="datetime">2021-12</td>
+<!-- THRESHOLDS -->
+    <td class="threshold">49&nbsp;<span class="green">+1</span></td>
+    <td class="threshold">41&nbsp;<span class="green">+2</span></td>
+    <td class="threshold">12&nbsp;<span class="red">-1</span></td>
+    <td class="threshold">1</td>
+    <td class="threshold">-</td>
+    <td class="threshold">-</td>
+    <td class="threshold">-</td>
+    <td class="threshold">-</td>
+    <td>
+    103
+&nbsp;<span class="green">+2</span>    </td>
+    <td>
+    2010
+	&nbsp;<span class="red"></span>
+	</td>
+  </tr>
+  <tr>
+    <td  class="datetime">2022-01</td>
+<!-- THRESHOLDS -->
+    <td class="threshold">47&nbsp;<span class="red">-2</span></td>
+    <td class="threshold">37&nbsp;<span class="red">-4</span></td>
+    <td class="threshold">13&nbsp;<span class="green">+1</span></td>
+    <td class="threshold">2&nbsp;<span class="green">+1</span></td>
+    <td class="threshold">-</td>
+    <td class="threshold">-</td>
+    <td class="threshold">-</td>
+    <td class="threshold">-</td>
+    <td>
+    99
+&nbsp;<span class="red">-4</span>    </td>
+    <td>
+    2060
+	&nbsp;<span class="green">+50</span>
+	</td>
+  </tr>
+  <tr>
+    <td  class="datetime">2022-02</td>
+<!-- THRESHOLDS -->
+    <td class="threshold">48&nbsp;<span class="green">+1</span></td>
+    <td class="threshold">34&nbsp;<span class="red">-3</span></td>
+    <td class="threshold">11&nbsp;<span class="red">-2</span></td>
+    <td class="threshold">2</td>
+    <td class="threshold">-</td>
+    <td class="threshold">-</td>
+    <td class="threshold">-</td>
+    <td class="threshold">-</td>
+    <td>
+    95
+&nbsp;<span class="red">-4</span>    </td>
+    <td>
+    1910
+	&nbsp;<span class="red">-150</span>
+	</td>
+  </tr>
+  <tr>
+    <td  class="datetime">2022-03</td>
+<!-- THRESHOLDS -->
+    <td class="threshold">44&nbsp;<span class="red">-4</span></td>
+    <td class="threshold">31&nbsp;<span class="red">-3</span></td>
+    <td class="threshold">11</td>
+    <td class="threshold">1&nbsp;<span class="red">-1</span></td>
+    <td class="threshold">-</td>
+    <td class="threshold">-</td>
+    <td class="threshold">-</td>
+    <td class="threshold">-</td>
+    <td>
+    87
+&nbsp;<span class="red">-8</span>    </td>
+    <td>
+    1710
+	&nbsp;<span class="red">-200</span>
+	</td>
+  </tr>
+  <tr>
+    <td  class="datetime">2022-04</td>
+<!-- THRESHOLDS -->
+    <td class="threshold">38&nbsp;<span class="red">-6</span></td>
+    <td class="threshold">27&nbsp;<span class="red">-4</span></td>
+    <td class="threshold">11</td>
+    <td class="threshold">1</td>
+    <td class="threshold">-</td>
+    <td class="threshold">-</td>
+    <td class="threshold">-</td>
+    <td class="threshold">-</td>
+    <td>
+    77
+&nbsp;<span class="red">-10</span>    </td>
+    <td>
+    1570
+	&nbsp;<span class="red">-140</span>
+	</td>
+  </tr>
+  <tr>
+    <td  class="datetime">2022-05</td>
+<!-- THRESHOLDS -->
+    <td class="threshold">36&nbsp;<span class="red">-2</span></td>
+    <td class="threshold">27</td>
+    <td class="threshold">10&nbsp;<span class="red">-1</span></td>
+    <td class="threshold">1</td>
+    <td class="threshold">-</td>
+    <td class="threshold">-</td>
+    <td class="threshold">-</td>
+    <td class="threshold">-</td>
+    <td>
+    74
+&nbsp;<span class="red">-3</span>    </td>
+    <td>
+    1500
+	&nbsp;<span class="red">-70</span>
+	</td>
+  </tr>
+  <tr>
+    <td  class="datetime">2022-06</td>
+<!-- THRESHOLDS -->
+    <td class="threshold">35&nbsp;<span class="red">-1</span></td>
+    <td class="threshold">27</td>
+    <td class="threshold">9&nbsp;<span class="red">-1</span></td>
+    <td class="threshold">1</td>
+    <td class="threshold">-</td>
+    <td class="threshold">-</td>
+    <td class="threshold">-</td>
+    <td class="threshold">-</td>
+    <td>
+    72
+&nbsp;<span class="red">-2</span>    </td>
+    <td>
+    1440
+	&nbsp;<span class="red">-60</span>
+	</td>
+  </tr>
+  <tr>
+    <td  class="datetime">2022-07</td>
+<!-- THRESHOLDS -->
+    <td class="threshold">37&nbsp;<span class="green">+2</span></td>
+    <td class="threshold">26&nbsp;<span class="red">-1</span></td>
+    <td class="threshold">7&nbsp;<span class="red">-2</span></td>
+    <td class="threshold">1</td>
+    <td class="threshold">-</td>
+    <td class="threshold">-</td>
+    <td class="threshold">-</td>
+    <td class="threshold">-</td>
+    <td>
+    71
+&nbsp;<span class="red">-1</span>    </td>
+    <td>
+    1340
+	&nbsp;<span class="red">-100</span>
+	</td>
+  </tr>
+  <tr>
+    <td  class="datetime">2022-08</td>
+<!-- THRESHOLDS -->
+    <td class="threshold">37</td>
+    <td class="threshold">27&nbsp;<span class="green">+1</span></td>
+    <td class="threshold">9&nbsp;<span class="green">+2</span></td>
+    <td class="threshold">1</td>
+    <td class="threshold">-</td>
+    <td class="threshold">-</td>
+    <td class="threshold">-</td>
+    <td class="threshold">-</td>
+    <td>
+    74
+&nbsp;<span class="green">+3</span>    </td>
+    <td>
+    1460
+	&nbsp;<span class="green">+120</span>
+	</td>
+  </tr>
+  <tr>
+    <th>Podsumowanie<br/>zmian:</th>
+    <th>12</th>
+    <th>6</th>
+    <th>2</th>
+    <th>0</th>
+    <th>0</th>
+    <th>0</th>
+    <th>0</th>
+    <th>0</th>
+    <th>20</th>
+    <th>340</th>
+  </tr>
+</table>
+
+
+<img class="marginauto" src="bbs_avg_monthly.png" width="900" alt="bbs_avg_monthly.png">
+
+
+<footer>
+    <a href="https://buycoffee.to/qki" target="_blank"><img src="static/buycoffeeto-btn-primary-outline.svg" style="width: 150px" alt="Postaw mi kawę na buycoffee.to"></a><br/>
+    Ostatnia aktualizacja 2022-08-27 ~13:00<br/>
+<span style="font-size: medium;">Strona napędzana przez <a href="https://mikr.us/?r=e04dbde4" style="font-size: inherit;">Mikr.us</a>a</span><br/>
+    Kontakt: 
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+</svg>
+    <a href="https://twitter.com/madalinski" style="font-size: large;">
+        <span class="username">madalinski</span></a><br/>
+</footer>
+</body>
+</html>
